@@ -1,7 +1,7 @@
-id: ghH1nErazES7UvaTRwNh5g
+id: LpMtaFz6gkeF-sRF7ZjG4g
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-04T10:03:36.0009082Z
+created: 2022-03-04T10:05:25.6117512Z
 protocol: 1
 tests:
 - id: HyrrPkKCqUivqiUGylmeFg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-02-23T16:42:42.0000000
-  modificationDate: 2022-02-23T16:57:54.0000000
+  modificationDate: 2022-03-04T10:05:10.0000000
   settings:
     automationAssistant: true
     appId: tQbVzCPYIE-jJxCsHJRViw
@@ -239,7 +239,7 @@ tests:
     validations: []
     contexts: []
   - id: J_BRqi1Me0aCBi2ZdImLwg
-    comments: ''
+    comments: To verify the "Bibliography" section is readonly
     enabled: true
     invertResult: false
     order: 10
@@ -416,49 +416,6 @@ auxTests:
     value: https://zbib.org/
     type: Input
 elements:
-- id: VZhkV0mFz0S0U5BWnPaPIw
-  name: Create
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Create']
-    priority: 0
-  - name: XPATH
-    value: //section[5]//button
-    priority: 1
-  - name: XPATH
-    value: /html/body/main/div/div[1]/section[5]/div/button
-    priority: 2
-- id: jFEFFkkpEE6v9V5sEaiC7g
-  name: View
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'View']
-    priority: 0
-  - name: XPATH
-    value: //div/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/main/div/div[1]/section[5]/div/div/a
-    priority: 2
-- id: pN0QMgd-c0-z0UxUgvbW-w
-  name: Bibliography_readonly_attribute
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: .bibliography.read-only
-    priority: 0
 - id: omnozkCd4kW3hj0fRYxCzQ
   name: Enter a URL, ISBN, DOI, PMID, arXiv I...
   type:
@@ -523,5 +480,48 @@ elements:
   - name: XPATH
     value: /html/body/main/div/div[1]/section[2]/div/div[1]/div/div/div/i
     priority: 2
+- id: VZhkV0mFz0S0U5BWnPaPIw
+  name: Create
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Create']
+    priority: 0
+  - name: XPATH
+    value: //section[5]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div/div[1]/section[5]/div/button
+    priority: 2
+- id: jFEFFkkpEE6v9V5sEaiC7g
+  name: View
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'View']
+    priority: 0
+  - name: XPATH
+    value: //div/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div/div[1]/section[5]/div/div/a
+    priority: 2
+- id: pN0QMgd-c0-z0UxUgvbW-w
+  name: Bibliography_readonly_attribute
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: .bibliography.read-only
+    priority: 0
 projectParameters: []
 addons: []
