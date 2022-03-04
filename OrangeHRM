@@ -1,0 +1,281 @@
+id: -XIvtff0OkqQ-M0TJ7YFDg
+projectId: t4AmewZR6ki_tNJyabegQQ
+projectName: PracticeWeb
+created: 2022-03-04T10:03:36.0001952Z
+protocol: 1
+tests:
+- id: 2Fgk7DkI5Eu-cXwT5TC22w
+  name: OrangeHRM
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-08-05T04:02:27.0000000
+  modificationDate: 2021-08-05T04:15:16.0000000
+  settings:
+    automationAssistant: true
+    appId: Mi-knQLqDEymIn5SJNGnDA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: Mi-knQLqDEymIn5SJNGnDA
+    name: OrangeHRM
+    url: https://opensource-demo.orangehrmlive.com/
+    platform: Web
+  steps:
+  - id: 161930E42kegQwdqheLvdw
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uEuMedb_PEu61cx1DXyfog
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: PD8mc-6mgkuWGzEZF2kvIA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: h7x9NE-dBkuaU9mKNgng2g
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: PD8mc-6mgkuWGzEZF2kvIA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Admin
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _aypjMbvwEiebUxxo5TuDg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: -7rilU_fm0WuC_9G7qmwdw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: y2p91VDRbEi8SJnFsj1cNA
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: -7rilU_fm0WuC_9G7qmwdw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: admin123
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dPgdz6qBI0-336QSiF05xg
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: izfqU6DN1EucSTMEjSG0eg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RM9S3uPeeEGX2UU7-nF9gg
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: itMmk7mAfkm8gg5FrzneKw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MJBLA3rN8kavU27qrAwqgA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: itMmk7mAfkm8gg5FrzneKw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://opensource-demo.orangehrmlive.com/
+    type: Input
+auxTests: []
+elements:
+- id: PD8mc-6mgkuWGzEZF2kvIA
+  name: txtUsername
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#txtUsername'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='txtUsername']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div[3]/div[2]/div[2]/form/div[2]/input
+    priority: 3
+- id: -7rilU_fm0WuC_9G7qmwdw
+  name: txtPassword
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#txtPassword'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='txtPassword']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div[3]/div[2]/div[2]/form/div[3]/input
+    priority: 3
+- id: izfqU6DN1EucSTMEjSG0eg
+  name: Submit
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#btnLogin'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='Submit']"
+    priority: 1
+  - name: XPATH
+    value: //div[5]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div[3]/div[2]/div[2]/form/div[5]/input
+    priority: 3
+- id: itMmk7mAfkm8gg5FrzneKw
+  name: Dashboard2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h1[. = 'Dashboard']
+    priority: 0
+  - name: XPATH
+    value: //h1
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[3]/div/div[1]/h1
+    priority: 2
+projectParameters: []
+addons: []

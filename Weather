@@ -1,0 +1,341 @@
+id: RXdEzVSBOUSadvmT1vjsHA
+projectId: t4AmewZR6ki_tNJyabegQQ
+projectName: PracticeWeb
+created: 2022-03-04T10:03:36.0000256Z
+protocol: 1
+tests:
+- id: jXGMNHxu1UeVVr2KmYZqRw
+  name: Weather
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2020-11-27T14:21:12.0000000
+  modificationDate: 2022-02-07T05:59:34.0000000
+  settings:
+    automationAssistant: false
+    appId: i-XyUHocUUW33u3HRS8_Wg
+    stepSleepTime: 0
+    stepTimeout: 15000
+    stepSleepTiming: None
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: i-XyUHocUUW33u3HRS8_Wg
+    name: https://weather.com/weather/today/l/32.10,34.85?par=google&temp=c
+    url: https://weather.com/weather/today/l/32.10,34.85?par=google&temp=c
+    platform: Web
+  steps:
+  - id: o87KaN6iekW9wdCe6C-mHw
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: 0
+      timeout: 0
+      sleepTiming: None
+      failureBehaviorType: Abort
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: https://weather.com/weather/today
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qQyOMmVSo0Oucy6BtSlVJA
+    comments: Scrolls to Daily Forecast section
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    elementId: 622tcXgjHkW01R187pKYMQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Always
+    action:
+      id: Nv5yOK03QkCH5IC9CwaKoQ
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0sjjAsv0NUKJIPbIf2Wn-w
+    comments: Takes a screenshot of the weather banner
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Addon
+    elementId: 622tcXgjHkW01R187pKYMQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: sH-MFlvh7EGwnhmxSxbLpw
+      source: Store
+      addonId: n3lQIzPLoUig5Ab2fjfGzA
+    parameterMaps:
+    - name: path
+      value: C:\Users\kbala\Desktop\TestprojectScreenshots
+      direction: Input
+    - name: imgName
+      value: DailyForecast
+      direction: Input
+    - name: resultFullPath
+      value: '{{Local_Path_To_Img_Dir}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _8CVba-TE0ezhJZBGVXIhg
+    comments: Sends the weather image to an email address
+    enabled: false
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: 5000
+      timeout: -1
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: RXAfD8jrLEq87vTibcCUMw
+      source: Store
+      addonId: ZpTDn5rz2EKdnEWx1uJGTw
+    parameterMaps:
+    - name: from
+      value: '{{From_Email}}'
+      direction: Input
+    - name: to
+      value: '{{To_Email}}'
+      direction: Input
+    - name: password
+      value: '{{From_Email_Password}}'
+      direction: Input
+    - name: host
+      value: smtp.gmail.com
+      direction: Input
+    - name: port
+      value: 465
+      direction: Input
+    - name: subject
+      value: Daily Forecast - Sent with love by TestProject
+      direction: Input
+    - name: body
+      value: >2
+         Here is my weather forecast for today (Nov 30. 2020)
+
+        Thanks.
+      direction: Input
+    - name: pathToFiles
+      value: '{{Local_Path_To_Img_Dir}}'
+      direction: Input
+    - name: isHTML
+      value: false
+      direction: Input
+    - name: addCC
+      value: ''
+      direction: Input
+    - name: addBCC
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RN4wC_hdtESFWFKwoGExmg
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: dtLj29nUKU2y2lEHVPimJw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QlncIWZVOUCNIFLRswWYHA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: vuUvxOkDCUSdJKsfqcPq7g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZrWWnOngrEuUXr8zMOiofg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: vuUvxOkDCUSdJKsfqcPq7g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{OutPut_Value_Temperature}}'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: From_Email
+    description: ''
+    value: kbalaji.kks@gmail.com
+    type: Input
+  - name: To_Email
+    description: ''
+    value: kbalaji.kks@gmail.com
+    type: Input
+  - name: From_Email_Password
+    description: ''
+    type: Input
+  - name: Local_Path_To_Img_Dir
+    description: ''
+    value: D:\TestprojectScreenshots\DailyForecast.jpg
+    type: Input
+  - name: Host
+    description: ''
+    value: smtp.gmail.com
+    type: Input
+  - name: Port
+    description: ''
+    value: 465
+    type: Input
+  - name: OutPut_Value_Temperature
+    description: ''
+    value: ''
+    type: Output
+auxTests: []
+elements:
+- id: 622tcXgjHkW01R187pKYMQ
+  name: Daily Forecast
+  type:
+    id: jUwODgyNjAyNzk2NTk2NzM
+    name: Section
+    source: System
+  locators:
+  - name: XPATH
+    value: //section[@title="Daily Forecast"]
+    priority: 0
+- id: dtLj29nUKU2y2lEHVPimJw
+  name: Today
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //h3/span[. = 'Today']
+    priority: 0
+  - name: XPATH
+    value: //div[9]/section/div/ul/li[1]/a/h3/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/main/div[2]/main/div[9]/section/div/ul/li[1]/a/h3/span
+    priority: 2
+- id: vuUvxOkDCUSdJKsfqcPq7g
+  name: Temperaturevalue
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //details[1]/div/div[1]/div/div/span
+    priority: 0
+  - name: XPATH
+    value: //details[1]/div//span[. = '19°']
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/main/div[2]/main/div[1]/section/div[2]/details[1]/div/div[1]/div/div[1]/span
+    priority: 2
+projectParameters: []
+addons:
+- id: 9G7qW0nEqU60ObO6IXJshg
+  source: Store
+  version: 1.9
+  actions:
+  - id: Nv5yOK03QkCH5IC9CwaKoQ
+    name: Scroll To Element With Javascript
+    description: Using Javascript to scroll to the element
+    className: io.testproject.addon.jsactions.ScrollToElementAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 391BA51B31B3A1CADC112A2DD7D674CCC8AA80895D1FB9B1A90928D01D0153F3
+- id: n3lQIzPLoUig5Ab2fjfGzA
+  source: Store
+  version: 2.6
+  actions:
+  - id: sH-MFlvh7EGwnhmxSxbLpw
+    name: Take element screenshot
+    description: Takes a screenshot of an element and saves a copy to a local path
+    className: io.testproject.addon.imagecomparison.Actions.Web.TakeScreenshotWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 06AB73FE0CDF1088F7393D68789FAA187CDF3644C73FD29140D261E7CB3AF821
+- id: ZpTDn5rz2EKdnEWx1uJGTw
+  source: Store
+  version: 0.5
+  actions:
+  - id: RXAfD8jrLEq87vTibcCUMw
+    name: Send email
+    description: Send an email using SMTP, supports multiple attachments
+    className: SendMail
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: F1A4C678083091D1339987C7013D9A1154A2D56611AC1F393078A06D567C31B2

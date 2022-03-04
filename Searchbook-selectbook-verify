@@ -1,0 +1,229 @@
+id: WdxDQinPnUOY-os9iNzf6Q
+projectId: t4AmewZR6ki_tNJyabegQQ
+projectName: PracticeWeb
+created: 2022-03-04T10:03:36.0003201Z
+protocol: 1
+tests:
+- id: 56yCDcgQYk-JPyMc6qQg3g
+  name: Searchbook-selectbook-verify
+  description: UI assessment for IDP
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-02-23T16:04:57.0000000
+  modificationDate: 2022-02-23T16:56:32.0000000
+  settings:
+    automationAssistant: true
+    appId: tQbVzCPYIE-jJxCsHJRViw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Always
+  application:
+    id: tQbVzCPYIE-jJxCsHJRViw
+    name: Zoterobib
+    url: https://zbib.org/
+    platform: Web
+  steps:
+  - id: UBnKc7PnckOB3o_XVOyAiQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: cx41Y4iInkah3fWDeBCoxg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: omnozkCd4kW3hj0fRYxCzQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 617CoTfTqESDMdJuGqQ07g
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: omnozkCd4kW3hj0fRYxCzQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: project
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rjv_Dt2UEk-5JKCQPdSYOA
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 4dFoAosyS0Sd9nENKu3kkA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9-sQl4z-3Uir9PniQ7XGtQ
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: rJ1oSSz450KDAeb9qWOK9A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uHtFtOmjgUOtISQ08lUd7g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: rfwGmNAIt06FaYYyo05NOQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://zbib.org/
+    type: Input
+auxTests: []
+elements:
+- id: omnozkCd4kW3hj0fRYxCzQ
+  name: Enter a URL, ISBN, DOI, PMID, arXiv I...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@placeholder = 'Enter a URL, ISBN, DOI, PMID, arXiv ID, or title']
+    priority: 0
+  - name: XPATH
+    value: //input
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div/div[1]/section[1]/div/div/div/div/input
+    priority: 2
+- id: 4dFoAosyS0Sd9nENKu3kkA
+  name: Cite
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Cite']
+    priority: 0
+  - name: XPATH
+    value: //section[1]/div/div/div/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div/div[1]/section[1]/div/div/div/button
+    priority: 2
+- id: rJ1oSSz450KDAeb9qWOK9A
+  name: A guide to the project management bod...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[1]//span[. = 'A guide to the project management body of knowledge (PMBOK guide)']
+    priority: 0
+  - name: XPATH
+    value: //li[1]/h5/span[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div/div[7]/div/div/div/div[2]/ul/li[1]/h5/span[1]
+    priority: 2
+- id: rfwGmNAIt06FaYYyo05NOQ
+  name: A Guide to the Project Management Bod...1
+  type:
+    id: jUwODgyNjAyNzk2NTk2MjQ
+    name: i
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/div/div/i[. = 'A Guide to the Project Management Body of Knowledge (PMBOK Guide)']
+    priority: 0
+  - name: XPATH
+    value: //div/div/div/i
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div/div[1]/section[2]/div/div[1]/div/div/div/i
+    priority: 2
+projectParameters: []
+addons: []

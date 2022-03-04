@@ -1,0 +1,223 @@
+id: -OYTsoAZRkKN_ongPb-UVg
+projectId: t4AmewZR6ki_tNJyabegQQ
+projectName: PracticeWeb
+created: 2022-03-04T10:03:35.9998563Z
+protocol: 1
+tests:
+- id: 4YxkBh1Q2UyoeSE5BwVxNg
+  name: APIChallenge
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2020-10-29T04:46:15.0000000
+  modificationDate: 2022-02-07T06:25:43.0000000
+  settings:
+    automationAssistant: false
+    appId: BI8CBdHg3kyyQWjoOlorOw
+    stepSleepTime: 0
+    stepTimeout: 15000
+    stepSleepTiming: None
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Always
+  application:
+    id: BI8CBdHg3kyyQWjoOlorOw
+    name: https://jsonplaceholder.typicode.com/
+    url: https://jsonplaceholder.typicode.com/
+    platform: Web
+  steps:
+  - id: -e8ma8MSr0W-EafnOdOLyw
+    comments: Navigate to the base URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: 0
+      timeout: 0
+      sleepTiming: None
+      failureBehaviorType: Abort
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: k716II2OBE-g3GlCxJ1m9g
+    comments: Clicking  the link "comments?postId=1"
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: KVIaCVi2QU2MV2Wq9AnPqQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: eu-q421pukKdofkhpES6pQ
+    comments: Navigate to the specified URL "/postId=4"
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: 0
+      timeout: 0
+      sleepTiming: None
+      failureBehaviorType: Abort
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}{{PostIdParameterize}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PaO8tmx4uEq1oyV73sRgBg
+    comments: Retrieving the "postId=4" comments.
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: W4_VJE6pXEOqalj9R_9PWw
+      source: Store
+      addonId: 0vl75E0Mr0G5TRI1xxul-w
+    parameterMaps:
+    - name: jsonFile
+      value: '{{JsonArray}}'
+      direction: Input
+    - name: jsonPath
+      value: $[0:].id
+      direction: Input
+    - name: result
+      value: '{{ExtractedValue}}'
+      direction: Output
+    - name: setJsonObject
+      value: ''
+      direction: Input
+    conditions: []
+    validations:
+    - type: Contains
+      invert: false
+      field: result
+      value: 16
+    contexts: []
+  - id: zCsnetQFEU2f4ZFBhx8XtA
+    comments: Retrieving the sum of Id's
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: 2000
+      timeout: -1
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: W4_VJE6pXEOqalj9R_9PWw
+      source: Store
+      addonId: 0vl75E0Mr0G5TRI1xxul-w
+    parameterMaps:
+    - name: jsonFile
+      value: '{{JsonArray}}'
+      direction: Input
+    - name: jsonPath
+      value: $.length()
+      direction: Input
+    - name: result
+      value: ''
+      direction: Output
+    - name: setJsonObject
+      value: ''
+      direction: Input
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: result
+      value: 5
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://jsonplaceholder.typicode.com/
+    type: Input
+  - name: PostIdParameterize
+    description: ''
+    value: comments?postId=4
+    type: Input
+  - name: JsonArray
+    value: '[   {     "postId": 4,     "id": 16,     "name": "perferendis temporibus delectus optio ea eum ratione dolorum",     "email": "Christine@ayana.info",     "body": "iste ut laborum aliquid velit facere itaque\nquo ut soluta dicta voluptate\nerror tempore aut et\nsequi reiciendis dignissimos expedita consequuntur libero sed fugiat facilis"   },   {     "postId": 4,     "id": 17,     "name": "eos est animi quis",     "email": "Preston_Hudson@blaise.tv",     "body": "consequatur necessitatibus totam sed sit dolorum\nrecusandae quae odio excepturi voluptatum harum voluptas\nquisquam sit ad eveniet delectus\ndoloribus odio qui non labore"   },   {     "postId": 4,     "id": 18,     "name": "aut et tenetur ducimus illum aut nulla ab",     "email": "Vincenza_Klocko@albertha.name",     "body": "veritatis voluptates necessitatibus maiores corrupti\nneque et exercitationem amet sit et\nullam velit sit magnam laborum\nmagni ut molestias"   },   {     "postId": 4,     "id": 19,     "name": "sed impedit rerum quia et et inventore unde officiis",     "email": "Madelynn.Gorczany@darion.biz",     "body": "doloribus est illo sed minima aperiam\nut dignissimos accusantium tempore atque et aut molestiae\nmagni ut accusamus voluptatem quos ut voluptates\nquisquam porro sed architecto ut"   },   {     "postId": 4,     "id": 20,     "name": "molestias expedita iste aliquid voluptates",     "email": "Mariana_Orn@preston.org",     "body": "qui harum consequatur fugiat\net eligendi perferendis at molestiae commodi ducimus\ndoloremque asperiores numquam qui\nut sit dignissimos reprehenderit tempore"   } ]'
+    type: Input
+  - name: Filesaving
+    description: ''
+    value: C:/users/kbala/Desktop/testproject_challenge.pdf
+    type: Input
+  - name: ExtractedValue
+    description: ''
+    value: ''
+    type: Output
+auxTests: []
+elements:
+- id: KVIaCVi2QU2MV2Wq9AnPqQ
+  name: /comments?postId=1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = '/comments?postId=1']
+    priority: 0
+  - name: XPATH
+    value: //tr[4]/td[2]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/main/table[2]/tbody/tr[4]/td[2]/a
+    priority: 2
+projectParameters: []
+addons:
+- id: 0vl75E0Mr0G5TRI1xxul-w
+  source: Store
+  version: 1.7
+  actions:
+  - id: W4_VJE6pXEOqalj9R_9PWw
+    name: Get value from JSON using JsonPath
+    description: Gets value in JSON using JsonPath syntax
+    className: actions.GetValueFromJSON
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 5E9FAF56E3FFEB61BF1059DFE78B637DA1FBCCE0641A4B7082018D01931A2542

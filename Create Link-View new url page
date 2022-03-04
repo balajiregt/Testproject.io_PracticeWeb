@@ -1,0 +1,527 @@
+id: ghH1nErazES7UvaTRwNh5g
+projectId: t4AmewZR6ki_tNJyabegQQ
+projectName: PracticeWeb
+created: 2022-03-04T10:03:36.0009082Z
+protocol: 1
+tests:
+- id: HyrrPkKCqUivqiUGylmeFg
+  name: Create Link-View new url page
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-02-23T16:42:42.0000000
+  modificationDate: 2022-02-23T16:57:54.0000000
+  settings:
+    automationAssistant: true
+    appId: tQbVzCPYIE-jJxCsHJRViw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Always
+  application:
+    id: tQbVzCPYIE-jJxCsHJRViw
+    name: Zoterobib
+    url: https://zbib.org/
+    platform: Web
+  steps:
+  - id: 3kwFxa_TH0WW0jqjm_PLjA
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: A6LnIrMlvU21U3xWnhKzRg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 100
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8KBaFSb3XESzvP_WSC2k5A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Test
+    targetTestId: 56yCDcgQYk-JPyMc6qQg3g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: admyoSE0XkaVh0SqvQ1ZNA
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gZ9lWbIuH0eTLm2C43dtRg
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 400
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5veqbRY_30OaG7OfUPoRQw
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 200
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OeAu5ac6x0qRrfvX7tdI_g
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 400
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lc8Mrm5Wx0SU2kaeOMR76A
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: VZhkV0mFz0S0U5BWnPaPIw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PayLcMuKV0WE9XX45kKVOw
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: jFEFFkkpEE6v9V5sEaiC7g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: J_BRqi1Me0aCBi2ZdImLwg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: pN0QMgd-c0-z0UxUgvbW-w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://zbib.org/
+    type: Input
+auxTests:
+- id: 56yCDcgQYk-JPyMc6qQg3g
+  name: Searchbook-selectbook-verify
+  description: UI assessment for IDP
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-02-23T16:04:57.0000000
+  modificationDate: 2022-02-23T16:56:32.0000000
+  settings:
+    automationAssistant: true
+    appId: tQbVzCPYIE-jJxCsHJRViw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Always
+  steps:
+  - id: UBnKc7PnckOB3o_XVOyAiQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: cx41Y4iInkah3fWDeBCoxg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: omnozkCd4kW3hj0fRYxCzQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 617CoTfTqESDMdJuGqQ07g
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: omnozkCd4kW3hj0fRYxCzQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: project
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rjv_Dt2UEk-5JKCQPdSYOA
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 4dFoAosyS0Sd9nENKu3kkA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9-sQl4z-3Uir9PniQ7XGtQ
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: rJ1oSSz450KDAeb9qWOK9A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uHtFtOmjgUOtISQ08lUd7g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: rfwGmNAIt06FaYYyo05NOQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://zbib.org/
+    type: Input
+elements:
+- id: VZhkV0mFz0S0U5BWnPaPIw
+  name: Create
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Create']
+    priority: 0
+  - name: XPATH
+    value: //section[5]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div/div[1]/section[5]/div/button
+    priority: 2
+- id: jFEFFkkpEE6v9V5sEaiC7g
+  name: View
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'View']
+    priority: 0
+  - name: XPATH
+    value: //div/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div/div[1]/section[5]/div/div/a
+    priority: 2
+- id: pN0QMgd-c0-z0UxUgvbW-w
+  name: Bibliography_readonly_attribute
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: .bibliography.read-only
+    priority: 0
+- id: omnozkCd4kW3hj0fRYxCzQ
+  name: Enter a URL, ISBN, DOI, PMID, arXiv I...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@placeholder = 'Enter a URL, ISBN, DOI, PMID, arXiv ID, or title']
+    priority: 0
+  - name: XPATH
+    value: //input
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div/div[1]/section[1]/div/div/div/div/input
+    priority: 2
+- id: 4dFoAosyS0Sd9nENKu3kkA
+  name: Cite
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Cite']
+    priority: 0
+  - name: XPATH
+    value: //section[1]/div/div/div/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div/div[1]/section[1]/div/div/div/button
+    priority: 2
+- id: rJ1oSSz450KDAeb9qWOK9A
+  name: A guide to the project management bod...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[1]//span[. = 'A guide to the project management body of knowledge (PMBOK guide)']
+    priority: 0
+  - name: XPATH
+    value: //li[1]/h5/span[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div/div[7]/div/div/div/div[2]/ul/li[1]/h5/span[1]
+    priority: 2
+- id: rfwGmNAIt06FaYYyo05NOQ
+  name: A Guide to the Project Management Bod...1
+  type:
+    id: jUwODgyNjAyNzk2NTk2MjQ
+    name: i
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/div/div/i[. = 'A Guide to the Project Management Body of Knowledge (PMBOK Guide)']
+    priority: 0
+  - name: XPATH
+    value: //div/div/div/i
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div/div[1]/section[2]/div/div[1]/div/div/div/i
+    priority: 2
+projectParameters: []
+addons: []
