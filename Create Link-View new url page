@@ -1,7 +1,7 @@
-id: LpMtaFz6gkeF-sRF7ZjG4g
+id: RaHr84dt5kKsZJUr4Tqn2g
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-04T10:05:25.6117512Z
+created: 2022-03-04T10:06:40.4113923Z
 protocol: 1
 tests:
 - id: HyrrPkKCqUivqiUGylmeFg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-02-23T16:42:42.0000000
-  modificationDate: 2022-03-04T10:05:10.0000000
+  modificationDate: 2022-03-04T10:06:35.0000000
   settings:
     automationAssistant: true
     appId: tQbVzCPYIE-jJxCsHJRViw
@@ -76,7 +76,7 @@ tests:
     validations: []
     contexts: []
   - id: 8KBaFSb3XESzvP_WSC2k5A
-    comments: ''
+    comments: Test for "Searching" and "Selecting" the listed book
     enabled: true
     invertResult: false
     order: 3
