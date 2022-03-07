@@ -1,83 +1,9 @@
-id: uDzBHag7W0mO_Fg3_T0NYA
+id: mVQCGUJfIU2poVrfcO4Y0g
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-07T15:59:21.8197578Z
+created: 2022-03-07T15:59:21.8194584Z
 protocol: 1
 tests:
-- id: _4tnkLuNWEORu5d-jWxulw
-  name: Karvey-delegate-site
-  description: SingleVariablePlanning_Tool
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 0.1
-  creationDate: 2022-03-07T14:45:33.0000000
-  modificationDate: 2022-03-07T15:18:53.0000000
-  settings:
-    automationAssistant: true
-    appId: VtxNeKFdeEGln7VB7JtHyg
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  application:
-    id: VtxNeKFdeEGln7VB7JtHyg
-    name: Delegate-site
-    url: http://test-uat.eu-west-1.elasticbeanstalk.com
-    platform: Web
-  steps:
-  - id: yf_iYFwbnkGpafEnDYYbHA
-    comments: Navigates the specified URL (Auto-generated)
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
-      source: System
-    parameterMaps:
-    - name: url
-      value: '{{ApplicationURL}}'
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 4pRWoaTbT06YilbZl18-8w
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Test
-    targetTestId: rqinhwzX5EafxblbqDSFyg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      source: None
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: http://test-uat.eu-west-1.elasticbeanstalk.com
-    type: Input
-  tags:
-  - Pre_StrategicLaunch
-auxTests:
 - id: rqinhwzX5EafxblbqDSFyg
   name: Login_steps
   description: This test was auto generated from steps of the 'karvay-delegate-site' test
@@ -95,6 +21,11 @@ auxTests:
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
+  application:
+    id: VtxNeKFdeEGln7VB7JtHyg
+    name: Delegate-site
+    url: http://test-uat.eu-west-1.elasticbeanstalk.com
+    platform: Web
   steps:
   - id: mObBLukk0kSMegJIBwgMow
     enabled: true
@@ -580,6 +511,7 @@ auxTests:
     description: ''
     value: 4
     type: Input
+auxTests: []
 elements:
 - id: rsrm7WrD5EiftieoMcvyGQ
   name: email
