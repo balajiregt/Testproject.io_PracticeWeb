@@ -1,7 +1,7 @@
-id: ls8A0GFk4UeFvQf_PeYBBQ
+id: vU2pWTrvakGgzFL2MB0Evg
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-07T14:03:27.1869215Z
+created: 2022-03-07T14:34:50.5896590Z
 protocol: 1
 tests:
 - id: dqzIf3fCDEWZxtAjIE4Hlg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-03-07T11:34:47.0000000
-  modificationDate: 2022-03-07T14:02:53.0000000
+  modificationDate: 2022-03-07T14:34:16.0000000
   settings:
     automationAssistant: true
     appId: VtxNeKFdeEGln7VB7JtHyg
@@ -528,12 +528,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: XyM6GzyP-U2fG8f_knL68A
+  - id: zq_D2-_jqUiHI0LJ4DfGvg
+    comments: ''
     enabled: true
     invertResult: false
     order: 24
     repeat: 1
-    type: Action
+    type: Addon
     elementId: BHuQuYS0PESL12nHgfp-Tw
     settings:
       sleepTime: -1
@@ -542,13 +543,14 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
     parameterMaps: []
     conditions: []
     validations: []
     contexts: []
-  - id: NLxFlNdE1E6LHnqUbcx8ng
+  - id: cVN5zQD1HEG26-VXphxwRg
     comments: ''
     enabled: true
     invertResult: false
@@ -572,12 +574,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: xx6IIPS4hkG85epT5Yo9TQ
+  - id: VMae3fRCrUS2p_r9eICOYQ
+    comments: ''
     enabled: true
     invertResult: false
     order: 26
     repeat: 1
-    type: Action
+    type: Addon
     elementId: AKQFqrt9WU-UvTsC1mCxJg
     settings:
       sleepTime: -1
@@ -586,13 +589,14 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
     parameterMaps: []
     conditions: []
     validations: []
     contexts: []
-  - id: rcOVN-dhLECXT3UvIYTFRw
+  - id: 7jWJ-XHoxU2SrrgQcSDlkA
     comments: ''
     enabled: true
     invertResult: false
@@ -798,7 +802,7 @@ elements:
     priority: 0
 - id: uVA2r8x6dE69Jc6J2LMPSw
   name: HIGH1
-  description: clicking "HIGH1", validating the attribute "label"
+  description: ''
   type:
     id: jUwODgyNjAyNzk2NTk2MzU
     name: label
@@ -809,7 +813,7 @@ elements:
     priority: 0
 - id: B-umBKOJRUqlW_t0keDEXg
   name: HIGH2
-  description: clicking "HIGH2", validating the attribute "label"
+  description: ''
   type:
     id: jUwODgyNjAyNzk2NTk2MzU
     name: label
@@ -877,9 +881,6 @@ elements:
   - name: XPATH
     value: //area[2]
     priority: 0
-  - name: XPATH
-    value: /html/body/div/div/div/div[2]/main/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[2]/div/div[2]/map/area[2]
-    priority: 1
 - id: FpuopaGRQ0elFYe_KV14Tw
   name: THE DEALER1
   type:
@@ -899,16 +900,13 @@ elements:
 - id: BHuQuYS0PESL12nHgfp-Tw
   name: THE ENGINEER
   type:
-    id: jUwODgyNjAyNzk2NTk1NzI
-    name: area
+    id: jUwODgyNjAyNzk2NTk2OTU
+    name: title
     source: System
   locators:
   - name: XPATH
-    value: //area[3]
+    value: //area[@title = 'THE ENGINEER']
     priority: 0
-  - name: XPATH
-    value: /html/body/div/div/div/div[2]/main/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[2]/div/div[2]/map/area[3]
-    priority: 1
 - id: 1ht3tSUwVEaLcbMzsQxZ4Q
   name: THE ENGINEER1
   type:
@@ -928,16 +926,13 @@ elements:
 - id: AKQFqrt9WU-UvTsC1mCxJg
   name: THE DIPLOMAT
   type:
-    id: jUwODgyNjAyNzk2NTk1NzI
-    name: area
+    id: jUwODgyNjAyNzk2NTk2OTU
+    name: title
     source: System
   locators:
   - name: XPATH
-    value: //area[4]
+    value: //area[@title = 'THE DIPLOMAT']
     priority: 0
-  - name: XPATH
-    value: /html/body/div/div/div/div[2]/main/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[2]/div/div[2]/map/area[4]
-    priority: 1
 - id: rONBb8As30mppE_1srb5AA
   name: THE DIPLOMAT1
   type:
@@ -999,6 +994,19 @@ elements:
     priority: 0
 projectParameters: []
 addons:
+- id: 9G7qW0nEqU60ObO6IXJshg
+  source: Store
+  version: 1.9
+  actions:
+  - id: c7OPWafS8kaFJUBVwrhoRw
+    name: Click (using JavaScript)
+    description: Click {{element}}
+    className: io.testproject.addon.jsactions.ClickAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 391BA51B31B3A1CADC112A2DD7D674CCC8AA80895D1FB9B1A90928D01D0153F3
 - id: inW2AJJ04ku45E9-RN2zqA
   source: Store
   version: 2.10
