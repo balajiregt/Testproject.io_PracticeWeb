@@ -1,7 +1,7 @@
-id: suEpsdVQyUC6qTF9YFynlw
+id: ls8A0GFk4UeFvQf_PeYBBQ
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-07T13:35:39.5653831Z
+created: 2022-03-07T14:03:27.1869215Z
 protocol: 1
 tests:
 - id: dqzIf3fCDEWZxtAjIE4Hlg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-03-07T11:34:47.0000000
-  modificationDate: 2022-03-07T12:50:30.0000000
+  modificationDate: 2022-03-07T14:02:53.0000000
   settings:
     automationAssistant: true
     appId: VtxNeKFdeEGln7VB7JtHyg
@@ -336,6 +336,7 @@ tests:
     validations: []
     contexts: []
   - id: LuDoC0L89kyBC1VWg82mew
+    comments: clicking "HIGH", validating the attribute "label"
     enabled: true
     invertResult: false
     order: 15
@@ -355,35 +356,11 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: lIOAsODGTE6KReRF0SEsjA
-    comments: ''
+  - id: Ld2y__2J-kyZy06TtMxivg
+    comments: clicking "HIGH1", validating the attribute "label"
     enabled: true
     invertResult: false
     order: 16
-    repeat: 1
-    type: Addon
-    elementId: es50KCAjDEakQnuh-UUDCg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: YZijgJHE4E-32IEQQKZbgQ
-      source: Store
-      addonId: inW2AJJ04ku45E9-RN2zqA
-    parameterMaps:
-    - name: timeout
-      value: ''
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: Ld2y__2J-kyZy06TtMxivg
-    enabled: true
-    invertResult: false
-    order: 17
     repeat: 1
     type: Action
     elementId: uVA2r8x6dE69Jc6J2LMPSw
@@ -395,36 +372,16 @@ tests:
       takeScreenshotConditionType: Inherit
     action:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: cixmiyVTcU2_3Jrx-OYJhA
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 18
-    repeat: 1
-    type: Action
-    elementId: uVA2r8x6dE69Jc6J2LMPSw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 2c399e26-8d02-41a7-a8d4-acfeda14fb5b
       source: System
     parameterMaps: []
     conditions: []
     validations: []
     contexts: []
   - id: r4wgc0ZUd0immMaGQAXgsw
+    comments: clicking "HIGH2", validating the attribute "label"
     enabled: true
     invertResult: false
-    order: 19
+    order: 17
     repeat: 1
     type: Action
     elementId: B-umBKOJRUqlW_t0keDEXg
@@ -436,36 +393,16 @@ tests:
       takeScreenshotConditionType: Inherit
     action:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: f92xBhKXDEmlsQESpL8JsQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 20
-    repeat: 1
-    type: Action
-    elementId: B-umBKOJRUqlW_t0keDEXg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 2c399e26-8d02-41a7-a8d4-acfeda14fb5b
       source: System
     parameterMaps: []
     conditions: []
     validations: []
     contexts: []
   - id: 6EkvIS_I2UOBfu97LD09UA
+    comments: clicking "HIGH3", validating the attribute "label"
     enabled: true
     invertResult: false
-    order: 21
+    order: 18
     repeat: 1
     type: Action
     elementId: 4lRmoACX4ESLeoZjMN58Iw
@@ -477,36 +414,16 @@ tests:
       takeScreenshotConditionType: Inherit
     action:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: JHhUh3ieXkusbqmI_K2i1Q
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 22
-    repeat: 1
-    type: Action
-    elementId: 4lRmoACX4ESLeoZjMN58Iw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 2c399e26-8d02-41a7-a8d4-acfeda14fb5b
       source: System
     parameterMaps: []
     conditions: []
     validations: []
     contexts: []
   - id: uOW8FDUPzUWVVUNK-TWG3Q
+    comments: clicking "HIGH4", validating the attribute "label"
     enabled: true
     invertResult: false
-    order: 23
+    order: 19
     repeat: 1
     type: Action
     elementId: 1SnWQi7GrkuSbQYRdWkiEQ
@@ -518,27 +435,6 @@ tests:
       takeScreenshotConditionType: Inherit
     action:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: Iq8uMQ2NW0-onhdqJo6gtg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 24
-    repeat: 1
-    type: Action
-    elementId: 1SnWQi7GrkuSbQYRdWkiEQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 2c399e26-8d02-41a7-a8d4-acfeda14fb5b
       source: System
     parameterMaps: []
     conditions: []
@@ -547,7 +443,7 @@ tests:
   - id: tju3yVEDQ02bv5LJqUwQIw
     enabled: true
     invertResult: false
-    order: 25
+    order: 20
     repeat: 1
     type: Action
     elementId: ZSueg-Ezs0mG1BVnmGNaaw
@@ -568,7 +464,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 26
+    order: 21
     repeat: 1
     type: Action
     elementId: bm_U1Yopbkyn1YSP8qLifA
@@ -591,7 +487,7 @@ tests:
   - id: sDW1HEj04E6azZo2X1MW_Q
     enabled: true
     invertResult: false
-    order: 27
+    order: 22
     repeat: 1
     type: Action
     elementId: _A4eo1fZxkiEqc6QPpUEeA
@@ -612,7 +508,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 28
+    order: 23
     repeat: 1
     type: Action
     elementId: FpuopaGRQ0elFYe_KV14Tw
@@ -635,7 +531,7 @@ tests:
   - id: XyM6GzyP-U2fG8f_knL68A
     enabled: true
     invertResult: false
-    order: 29
+    order: 24
     repeat: 1
     type: Action
     elementId: BHuQuYS0PESL12nHgfp-Tw
@@ -656,7 +552,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 30
+    order: 25
     repeat: 1
     type: Action
     elementId: 1ht3tSUwVEaLcbMzsQxZ4Q
@@ -679,7 +575,7 @@ tests:
   - id: xx6IIPS4hkG85epT5Yo9TQ
     enabled: true
     invertResult: false
-    order: 31
+    order: 26
     repeat: 1
     type: Action
     elementId: AKQFqrt9WU-UvTsC1mCxJg
@@ -700,7 +596,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 32
+    order: 27
     repeat: 1
     type: Action
     elementId: rONBb8As30mppE_1srb5AA
@@ -723,7 +619,7 @@ tests:
   - id: g28yfK3QJkyOazgj9wj84Q
     enabled: true
     invertResult: false
-    order: 33
+    order: 28
     repeat: 1
     type: Action
     settings:
@@ -748,7 +644,7 @@ tests:
   - id: wFfaFLZ8HUulhNkYmz_fAg
     enabled: true
     invertResult: false
-    order: 34
+    order: 29
     repeat: 1
     type: Action
     elementId: E6AuiyIlcEmBEycZQ8UMNA
@@ -897,47 +793,31 @@ elements:
     name: label
     source: System
   locators:
-  - name: XPATH
-    value: //div[1]/div/div[2]/div/label[. = 'HIGH']
+  - name: CSSSELECTOR
+    value: label[for='myradio3undefined']
     priority: 0
-  - name: XPATH
-    value: //div[1]/div/div[2]/div[3]/label
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div[2]/main/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div[1]/div/div[2]/div[3]/label
-    priority: 2
 - id: uVA2r8x6dE69Jc6J2LMPSw
   name: HIGH1
+  description: clicking "HIGH1", validating the attribute "label"
   type:
     id: jUwODgyNjAyNzk2NTk2MzU
     name: label
     source: System
   locators:
-  - name: XPATH
-    value: //div[2]/div/div[2]/div/label[. = 'HIGH']
+  - name: CSSSELECTOR
+    value: label[for='myradio03undefined']
     priority: 0
-  - name: XPATH
-    value: //div[2]/div/div[2]/div[3]/label
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div[2]/main/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div[2]/div/div[2]/div[3]/label
-    priority: 2
 - id: B-umBKOJRUqlW_t0keDEXg
   name: HIGH2
+  description: clicking "HIGH2", validating the attribute "label"
   type:
     id: jUwODgyNjAyNzk2NTk2MzU
     name: label
     source: System
   locators:
-  - name: XPATH
-    value: //div[3]/div//label[. = 'HIGH']
+  - name: CSSSELECTOR
+    value: label[for='myradio13undefined']
     priority: 0
-  - name: XPATH
-    value: //div[3]/div/div[2]/div[3]/label
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div[2]/main/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div[3]/div/div[2]/div[3]/label
-    priority: 2
 - id: 4lRmoACX4ESLeoZjMN58Iw
   name: HIGH3
   type:
@@ -945,15 +825,9 @@ elements:
     name: label
     source: System
   locators:
-  - name: XPATH
-    value: //div[4]//label[. = 'HIGH']
+  - name: CSSSELECTOR
+    value: label[for='myradio23undefined']
     priority: 0
-  - name: XPATH
-    value: //div[4]/div/div[2]/div[3]/label
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div[2]/main/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div[4]/div/div[2]/div[3]/label
-    priority: 2
 - id: 1SnWQi7GrkuSbQYRdWkiEQ
   name: HIGH4
   type:
@@ -961,15 +835,9 @@ elements:
     name: label
     source: System
   locators:
-  - name: XPATH
-    value: //div[5]//label[. = 'HIGH']
+  - name: CSSSELECTOR
+    value: label[for='myradio33undefined']
     priority: 0
-  - name: XPATH
-    value: //div[5]/div/div[2]/div[3]/label
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div[2]/main/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div[5]/div/div[2]/div[3]/label
-    priority: 2
 - id: ZSueg-Ezs0mG1BVnmGNaaw
   name: THE HAGGLER
   type:
@@ -1139,10 +1007,6 @@ addons:
     name: Contains text? (if visible)
     description: '{{element}} contains text {{text}}?'
     className: io.testproject.addon.ContainsTextActions.ContainsTextIfVisibleWeb
-  - id: YZijgJHE4E-32IEQQKZbgQ
-    name: Is selected? (if visible)
-    description: Is {{element}} selected?
-    className: io.testproject.addon.IsSelectedActions.IsSelectedWeb
   minSdkLevel: 2
   minSdkVersion: 0.65.0
   sdkGeneration: 1
