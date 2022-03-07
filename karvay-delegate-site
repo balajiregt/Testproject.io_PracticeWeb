@@ -1,7 +1,7 @@
-id: EsOAs5IL9EexLpZhac85Tw
+id: FH8ZlMTW2EmbzaadaTFe8g
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-07T12:19:44.8933535Z
+created: 2022-03-07T12:48:00.7971616Z
 protocol: 1
 tests:
 - id: dqzIf3fCDEWZxtAjIE4Hlg
@@ -12,12 +12,12 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-03-07T11:34:47.0000000
-  modificationDate: 2022-03-07T12:19:22.0000000
+  modificationDate: 2022-03-07T12:48:01.0000000
   settings:
     automationAssistant: true
     appId: VtxNeKFdeEGln7VB7JtHyg
     stepSleepTime: 500
-    stepTimeout: 15000
+    stepTimeout: 25000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
@@ -227,34 +227,11 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: oGrz9bleHkmr3aTt30ZqPQ
-    comments: ''
+  - id: UeAgcY3EP0qngsUJJ2zA9g
+    comments: Click the first element- validating the attribute "data-icon="plus"]
     enabled: true
     invertResult: false
     order: 10
-    repeat: 1
-    type: Action
-    elementId: EHCfOxYfE0iI-RJO0WK3ZQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
-      source: System
-    parameterMaps:
-    - name: text
-      value: Expand
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: vi6jUMUYSU29_yAwKlnzSw
-    enabled: true
-    invertResult: false
-    order: 11
     repeat: 1
     type: Action
     elementId: EHCfOxYfE0iI-RJO0WK3ZQ
@@ -271,14 +248,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: XEBqTbydd0CNsyxQrPn3Bg
-    comments: ''
+  - id: Igm5qh5ttUiF4uzMvszfwA
+    comments: clicks the "minus" icon, validating the attribute [data-icon="window-minimize"]
     enabled: true
     invertResult: false
-    order: 12
+    order: 11
     repeat: 1
     type: Action
-    elementId: AHNZR_uWREqsjeXkh_EG0Q
+    elementId: Ev0mp3GelUKd_KMHQMd5HA
     settings:
       sleepTime: -1
       timeout: -1
@@ -286,12 +263,30 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
-    parameterMaps:
-    - name: text
-      value: Collapse
-      direction: Input
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vi6jUMUYSU29_yAwKlnzSw
+    comments: Click the first element- validating the attribute "data-icon="plus"]
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: EHCfOxYfE0iI-RJO0WK3ZQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -866,31 +861,15 @@ elements:
     value: /html/body/div/div/div/div[2]/main/div/div[2]/div/div[2]/div[1]/div[2]/div[1]
     priority: 1
 - id: EHCfOxYfE0iI-RJO0WK3ZQ
-  name: path
+  name: Plus-icon
   type:
     id: jUwODgyNjAyNzk2NTk1NDM
     name: Generic Web Element
     source: System
   locators:
-  - name: XPATH
-    value: //div[1]/span//*[name()='path']
+  - name: CSSSELECTOR
+    value: ' [data-icon="plus"]:first-child'
     priority: 0
-  - name: XPATH
-    value: /html/body/div/div/div/div[2]/main/div/div[2]/div/div[2]/div[1]/div[2]/div[1]/span/*[name()='svg']/*[name()='path']
-    priority: 1
-- id: AHNZR_uWREqsjeXkh_EG0Q
-  name: path1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDM
-    name: Generic Web Element
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[1]/div[2]/div[1]/span//*[name()='path']
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div/div/div[2]/main/div/div[2]/div/div[2]/div[1]/div[2]/div[1]/span/*[name()='svg']/*[name()='path']
-    priority: 1
 - id: rtNilffWXEuntODZ-thfEg
   name: EDIT
   type:
@@ -1135,6 +1114,17 @@ elements:
   - name: XPATH
     value: /html/body/div/div/div/div[2]/main/div[2]/div/section/div/div/div[1]/div[3]/div[1]/div[2]/a/div
     priority: 2
+- id: Ev0mp3GelUKd_KMHQMd5HA
+  name: Minus-icon
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: ' [data-icon="window-minimize"]:first-child'
+    priority: 0
 projectParameters: []
 addons:
 - id: inW2AJJ04ku45E9-RN2zqA
