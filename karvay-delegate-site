@@ -1,7 +1,7 @@
-id: vU2pWTrvakGgzFL2MB0Evg
+id: UjZZM12XhE6PaWlevwGZ2Q
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-07T14:34:50.5896590Z
+created: 2022-03-07T14:40:10.3198293Z
 protocol: 1
 tests:
 - id: dqzIf3fCDEWZxtAjIE4Hlg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-03-07T11:34:47.0000000
-  modificationDate: 2022-03-07T14:34:16.0000000
+  modificationDate: 2022-03-07T14:40:10.0000000
   settings:
     automationAssistant: true
     appId: VtxNeKFdeEGln7VB7JtHyg
@@ -670,6 +670,8 @@ tests:
     description: Auto generated application URL parameter
     value: http://test-uat.eu-west-1.elasticbeanstalk.com
     type: Input
+  tags:
+  - PLANT_ANALYSIS_TOOL
 auxTests: []
 elements:
 - id: rsrm7WrD5EiftieoMcvyGQ
