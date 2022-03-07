@@ -1,18 +1,18 @@
-id: S6ZPtzO8wk6rXOBcwXO2rw
+id: CO8ExzDme0CdMKpJghWoKQ
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-07T16:04:09.4739776Z
+created: 2022-03-07T16:05:49.2127359Z
 protocol: 1
 tests:
 - id: d9n6uM1T_0CELhgLMmHmhQ
-  name: Test2
-  description: This test was auto generated from steps of the 'Login_steps' test
+  name: Karvey-delegate-site
+  description: SingleVariablePlanning_Tool
   platform: Web
   type: Web
   driverType: Chrome
   version: 1.0
   creationDate: 2022-03-07T16:01:58.0000000
-  modificationDate: 2022-03-07T16:01:58.0000000
+  modificationDate: 2022-03-07T16:05:48.0000000
   settings:
     automationAssistant: true
     appId: VtxNeKFdeEGln7VB7JtHyg
@@ -404,6 +404,8 @@ tests:
     description: ''
     value: 4
     type: Input
+  tags:
+  - Pre_StrategicLaunch
 auxTests: []
 elements:
 - id: OIo5ylAEm0-de91DB_EKCA
