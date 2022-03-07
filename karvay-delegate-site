@@ -1,7 +1,7 @@
-id: FH8ZlMTW2EmbzaadaTFe8g
+id: suEpsdVQyUC6qTF9YFynlw
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-07T12:48:00.7971616Z
+created: 2022-03-07T13:35:39.5653831Z
 protocol: 1
 tests:
 - id: dqzIf3fCDEWZxtAjIE4Hlg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-03-07T11:34:47.0000000
-  modificationDate: 2022-03-07T12:48:01.0000000
+  modificationDate: 2022-03-07T12:50:30.0000000
   settings:
     automationAssistant: true
     appId: VtxNeKFdeEGln7VB7JtHyg
@@ -361,7 +361,7 @@ tests:
     invertResult: false
     order: 16
     repeat: 1
-    type: Action
+    type: Addon
     elementId: es50KCAjDEakQnuh-UUDCg
     settings:
       sleepTime: -1
@@ -370,9 +370,13 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 2c399e26-8d02-41a7-a8d4-acfeda14fb5b
-      source: System
-    parameterMaps: []
+      id: YZijgJHE4E-32IEQQKZbgQ
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: timeout
+      value: ''
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -1135,6 +1139,10 @@ addons:
     name: Contains text? (if visible)
     description: '{{element}} contains text {{text}}?'
     className: io.testproject.addon.ContainsTextActions.ContainsTextIfVisibleWeb
+  - id: YZijgJHE4E-32IEQQKZbgQ
+    name: Is selected? (if visible)
+    description: Is {{element}} selected?
+    className: io.testproject.addon.IsSelectedActions.IsSelectedWeb
   minSdkLevel: 2
   minSdkVersion: 0.65.0
   sdkGeneration: 1
