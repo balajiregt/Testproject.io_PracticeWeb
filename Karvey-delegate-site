@@ -1,7 +1,7 @@
-id: xPLO_w4R2UWjk6zUupXaqw
+id: uDzBHag7W0mO_Fg3_T0NYA
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-07T15:53:53.2764213Z
+created: 2022-03-07T15:59:21.8197578Z
 protocol: 1
 tests:
 - id: _4tnkLuNWEORu5d-jWxulw
@@ -581,16 +581,6 @@ auxTests:
     value: 4
     type: Input
 elements:
-- id: _Uap3Ljv5kCp2l8b3CFAWg
-  name: Submit
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#submit_login'
-    priority: 0
 - id: rsrm7WrD5EiftieoMcvyGQ
   name: email
   type:
@@ -635,22 +625,16 @@ elements:
   - name: XPATH
     value: /html/body/div/div/div/div[2]/main/div/div/div/div[2]/div[1]/div/form/div[2]/div/div/div/input
     priority: 4
-- id: rtNilffWXEuntODZ-thfEg
-  name: EDIT
+- id: _Uap3Ljv5kCp2l8b3CFAWg
+  name: Submit
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
-  - name: XPATH
-    value: //button[. = 'EDIT']
+  - name: CSSSELECTOR
+    value: '#submit_login'
     priority: 0
-  - name: XPATH
-    value: //button[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div/div[2]/main/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[3]/div[1]/button[2]
-    priority: 2
 - id: OIo5ylAEm0-de91DB_EKCA
   name: NEGOTIATION TOOLS1
   type:
@@ -682,6 +666,22 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div/div/div/div[2]/main/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/h2/span[2]
+    priority: 2
+- id: rtNilffWXEuntODZ-thfEg
+  name: EDIT
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'EDIT']
+    priority: 0
+  - name: XPATH
+    value: //button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div[2]/main/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[3]/div[1]/button[2]
     priority: 2
 - id: vHIQrUyZ4EWpDIFV-4vUQw
   name: opening_position_bur
