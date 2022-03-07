@@ -1,18 +1,18 @@
-id: i1OCA2o_VU60EFph74lDLg
+id: DgWFYgxW5U2J4-qDUJIGOQ
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-07T14:43:44.3795439Z
+created: 2022-03-07T14:47:49.8852498Z
 protocol: 1
 tests:
 - id: dqzIf3fCDEWZxtAjIE4Hlg
   name: karvay-delegate-site
-  description: ''
+  description: PLANT_Analysis_Tool
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-03-07T11:34:47.0000000
-  modificationDate: 2022-03-07T14:43:40.0000000
+  modificationDate: 2022-03-07T14:47:50.0000000
   settings:
     automationAssistant: true
     appId: VtxNeKFdeEGln7VB7JtHyg
@@ -585,7 +585,7 @@ tests:
     value: http://test-uat.eu-west-1.elasticbeanstalk.com
     type: Input
   tags:
-  - PLANT_ANALYSIS_TOOL
+  - Pre_StrategicLaunch
 auxTests:
 - id: rqinhwzX5EafxblbqDSFyg
   name: Login_steps
