@@ -1,18 +1,18 @@
-id: hF-2LutrpEaU_CMMYYQ9bA
+id: yg4EQ6Gs0US-_ptXOPQUYQ
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-07T14:48:02.8648223Z
+created: 2022-03-07T15:16:48.8096289Z
 protocol: 1
 tests:
 - id: _4tnkLuNWEORu5d-jWxulw
   name: Karvey-delegate-site
-  description: SingleVariablePlanningTool
+  description: SingleVariablePlanning_Tool
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-03-07T14:45:33.0000000
-  modificationDate: 2022-03-07T14:48:03.0000000
+  modificationDate: 2022-03-07T15:16:48.0000000
   settings:
     automationAssistant: true
     appId: VtxNeKFdeEGln7VB7JtHyg
