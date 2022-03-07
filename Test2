@@ -1,196 +1,9 @@
-id: ea423OPPoEmrt7GynADP7Q
+id: S6ZPtzO8wk6rXOBcwXO2rw
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-07T16:04:09.4737064Z
+created: 2022-03-07T16:04:09.4739776Z
 protocol: 1
 tests:
-- id: rqinhwzX5EafxblbqDSFyg
-  name: Login_steps
-  description: This test was auto generated from steps of the 'karvay-delegate-site' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-03-07T14:40:56.0000000
-  modificationDate: 2022-03-07T16:01:58.0000000
-  settings:
-    automationAssistant: true
-    appId: VtxNeKFdeEGln7VB7JtHyg
-    stepSleepTime: 500
-    stepTimeout: 25000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  application:
-    id: VtxNeKFdeEGln7VB7JtHyg
-    name: Delegate-site
-    url: http://test-uat.eu-west-1.elasticbeanstalk.com
-    platform: Web
-  steps:
-  - id: mObBLukk0kSMegJIBwgMow
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: rsrm7WrD5EiftieoMcvyGQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 4DZikQB2SkipDZIubPPDwg
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: rsrm7WrD5EiftieoMcvyGQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: kahvay+recMBLs1BHcRVaqlt@conso4s.com
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: TUJzTNQIdEi-gT7GM5AW2g
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    elementId: hBHxfoiCUUyuzu37xa4BHQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: _flccEhC80mEZzNhqygZ2Q
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: hBHxfoiCUUyuzu37xa4BHQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: P@ssword$21$
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: fiRAgJypcUiBYYGISoRDeA
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 5
-    repeat: 1
-    type: Action
-    elementId: _Uap3Ljv5kCp2l8b3CFAWg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: hY_ftFQ3zUupMoPI8w0KKQ
-    comments: This step was auto generated from several steps
-    enabled: true
-    invertResult: false
-    order: 6
-    repeat: 1
-    type: Test
-    targetTestId: d9n6uM1T_0CELhgLMmHmhQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      source: None
-    parameterMaps:
-    - name: singlevar_openingPos_buyer
-      value: '{{singlevar_openingPos_buyer}}'
-      direction: Input
-    - name: singlevar_walkawayprice_buyer
-      value: '{{singlevar_walkawayprice_buyer}}'
-      direction: Input
-    - name: singlevar_priceagreed_common
-      value: '{{singlevar_priceagreed_common}}'
-      direction: Input
-    - name: singlevar_walkawayPrice_seller
-      value: '{{singlevar_walkawayPrice_seller}}'
-      direction: Input
-    - name: singlevar_openingPos_seller
-      value: '{{singlevar_openingPos_seller}}'
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  parameters:
-  - name: singlevar_openingPos_buyer
-    description: ''
-    value: 1
-    type: Input
-  - name: singlevar_walkawayprice_buyer
-    description: ''
-    value: 2.5
-    type: Input
-  - name: singlevar_priceagreed_common
-    description: ''
-    value: 3
-    type: Input
-  - name: singlevar_walkawayPrice_seller
-    description: ''
-    value: 3.5
-    type: Input
-  - name: singlevar_openingPos_seller
-    description: ''
-    value: 4
-    type: Input
-auxTests:
 - id: d9n6uM1T_0CELhgLMmHmhQ
   name: Test2
   description: This test was auto generated from steps of the 'Login_steps' test
@@ -208,6 +21,11 @@ auxTests:
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
+  application:
+    id: VtxNeKFdeEGln7VB7JtHyg
+    name: Delegate-site
+    url: http://test-uat.eu-west-1.elasticbeanstalk.com
+    platform: Web
   steps:
   - id: I3nM0EJ8A06YAYD5J-Tm2Q
     comments: ''
@@ -586,61 +404,8 @@ auxTests:
     description: ''
     value: 4
     type: Input
+auxTests: []
 elements:
-- id: rsrm7WrD5EiftieoMcvyGQ
-  name: email
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#email'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='email']"
-    priority: 1
-  - name: XPATH
-    value: //input[@placeholder = 'Enter email']
-    priority: 2
-  - name: XPATH
-    value: //form/div/input
-    priority: 3
-  - name: XPATH
-    value: /html/body/div/div/div/div[2]/main/div/div/div/div[2]/div[1]/div/form/div[1]/input
-    priority: 4
-- id: hBHxfoiCUUyuzu37xa4BHQ
-  name: password
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#password'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='password']"
-    priority: 1
-  - name: XPATH
-    value: //input[@placeholder = 'Enter password']
-    priority: 2
-  - name: XPATH
-    value: //div[2]/div/div/div/input
-    priority: 3
-  - name: XPATH
-    value: /html/body/div/div/div/div[2]/main/div/div/div/div[2]/div[1]/div/form/div[2]/div/div/div/input
-    priority: 4
-- id: _Uap3Ljv5kCp2l8b3CFAWg
-  name: Submit
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#submit_login'
-    priority: 0
 - id: OIo5ylAEm0-de91DB_EKCA
   name: NEGOTIATION TOOLS1
   type:
