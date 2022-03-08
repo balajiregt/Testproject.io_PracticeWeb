@@ -1,7 +1,7 @@
-id: -zSw5SGNGkWM6pTQWkENSw
+id: ooYYeULBX0Coj-PjD-zHnQ
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-08T06:50:01.7316315Z
+created: 2022-03-08T06:53:47.1282008Z
 protocol: 1
 tests:
 - id: d9n6uM1T_0CELhgLMmHmhQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-03-07T16:01:58.0000000
-  modificationDate: 2022-03-08T06:49:56.0000000
+  modificationDate: 2022-03-08T06:53:41.0000000
   settings:
     automationAssistant: true
     appId: VtxNeKFdeEGln7VB7JtHyg
@@ -539,7 +539,7 @@ tests:
       direction: Output
     conditions: []
     validations:
-    - type: Equals
+    - type: Ends
       invert: false
       field: text
       value: '{{singlevar_openingPos_buyer}}'
@@ -567,7 +567,7 @@ tests:
       direction: Output
     conditions: []
     validations:
-    - type: Equals
+    - type: Ends
       invert: false
       field: text
       value: '{{singlevar_walkawayprice_buyer}}'
@@ -595,7 +595,7 @@ tests:
       direction: Output
     conditions: []
     validations:
-    - type: Equals
+    - type: Ends
       invert: false
       field: text
       value: '{{singlevar_priceagreed_common}}'
@@ -623,7 +623,7 @@ tests:
       direction: Output
     conditions: []
     validations:
-    - type: Equals
+    - type: Ends
       invert: false
       field: text
       value: '{{singlevar_walkawayPrice_seller}}'
@@ -651,7 +651,7 @@ tests:
       direction: Output
     conditions: []
     validations:
-    - type: Equals
+    - type: Ends
       invert: false
       field: text
       value: '{{singlevar_openingPos_seller}}'
