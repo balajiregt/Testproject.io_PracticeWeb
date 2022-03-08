@@ -1,7 +1,7 @@
-id: NKpnXAOpnEmU81ygnwKHAg
+id: -zSw5SGNGkWM6pTQWkENSw
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-08T05:57:35.6184256Z
+created: 2022-03-08T06:50:01.7316315Z
 protocol: 1
 tests:
 - id: d9n6uM1T_0CELhgLMmHmhQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-03-07T16:01:58.0000000
-  modificationDate: 2022-03-08T05:57:33.0000000
+  modificationDate: 2022-03-08T06:49:56.0000000
   settings:
     automationAssistant: true
     appId: VtxNeKFdeEGln7VB7JtHyg
@@ -535,10 +535,14 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: '{{singlevar_openingPos_buyer}}'
+      value: ''
       direction: Output
     conditions: []
-    validations: []
+    validations:
+    - type: Equals
+      invert: false
+      field: text
+      value: '{{singlevar_openingPos_buyer}}'
     contexts: []
   - id: Esxl5bu1N0e6NNeXfcthUA
     comments: ''
@@ -559,10 +563,14 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: '{{singlevar_walkawayprice_buyer}}'
+      value: ''
       direction: Output
     conditions: []
-    validations: []
+    validations:
+    - type: Equals
+      invert: false
+      field: text
+      value: '{{singlevar_walkawayprice_buyer}}'
     contexts: []
   - id: pIVcfxCGukeeWjwBTT891A
     comments: ''
@@ -583,10 +591,14 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: '{{singlevar_priceagreed_common}}'
+      value: ''
       direction: Output
     conditions: []
-    validations: []
+    validations:
+    - type: Equals
+      invert: false
+      field: text
+      value: '{{singlevar_priceagreed_common}}'
     contexts: []
   - id: 9HzPGuvmPU-ACjPEwXj6MA
     comments: ''
@@ -607,10 +619,14 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: '{{singlevar_walkawayPrice_seller}}'
+      value: ''
       direction: Output
     conditions: []
-    validations: []
+    validations:
+    - type: Equals
+      invert: false
+      field: text
+      value: '{{singlevar_walkawayPrice_seller}}'
     contexts: []
   - id: b9jKVTwG8EOG6f1E7QF0jA
     comments: ''
@@ -631,10 +647,14 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: '{{singlevar_openingPos_seller}}'
+      value: ''
       direction: Output
     conditions: []
-    validations: []
+    validations:
+    - type: Equals
+      invert: false
+      field: text
+      value: '{{singlevar_openingPos_seller}}'
     contexts: []
   - id: 1UoRXbCMAkS5Nl5vzGl_rQ
     enabled: true
