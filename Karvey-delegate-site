@@ -1,7 +1,7 @@
-id: 4T1z12GO00CsmoDm1DugGg
+id: NKpnXAOpnEmU81ygnwKHAg
 projectId: t4AmewZR6ki_tNJyabegQQ
 projectName: PracticeWeb
-created: 2022-03-07T16:29:42.7983475Z
+created: 2022-03-08T05:57:35.6184256Z
 protocol: 1
 tests:
 - id: d9n6uM1T_0CELhgLMmHmhQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-03-07T16:01:58.0000000
-  modificationDate: 2022-03-07T16:28:39.0000000
+  modificationDate: 2022-03-08T05:57:33.0000000
   settings:
     automationAssistant: true
     appId: VtxNeKFdeEGln7VB7JtHyg
@@ -27,11 +27,34 @@ tests:
     url: http://test-uat.eu-west-1.elasticbeanstalk.com
     platform: Web
   steps:
-  - id: hR_gzefhpEuLXWTp9kay7A
+  - id: 4kHjp0efdUaYjbHsu2IYhA
     comments: ''
     enabled: true
     invertResult: false
     order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: http://test-uat.eu-west-1.elasticbeanstalk.com
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hR_gzefhpEuLXWTp9kay7A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
     repeat: 1
     type: Test
     targetTestId: rqinhwzX5EafxblbqDSFyg
@@ -66,7 +89,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 2
+    order: 3
     repeat: 1
     type: Action
     elementId: OIo5ylAEm0-de91DB_EKCA
@@ -86,7 +109,7 @@ tests:
   - id: 4J06Pea-o0-__7wVZJFMZg
     enabled: true
     invertResult: false
-    order: 3
+    order: 4
     repeat: 1
     type: Action
     elementId: 8hcMY0OsBkGfOcN6VCV71g
@@ -106,7 +129,7 @@ tests:
   - id: h09zQcbAWEWcztD9U_b0nw
     enabled: true
     invertResult: false
-    order: 4
+    order: 5
     repeat: 1
     type: Action
     settings:
@@ -131,7 +154,7 @@ tests:
   - id: BdFPul4JFEGpsxpnt2QvFg
     enabled: true
     invertResult: false
-    order: 5
+    order: 6
     repeat: 1
     type: Action
     settings:
@@ -156,7 +179,7 @@ tests:
   - id: HzynYhHmf0CJ8Km7DuA-nw
     enabled: true
     invertResult: false
-    order: 6
+    order: 7
     repeat: 1
     type: Action
     settings:
@@ -181,7 +204,7 @@ tests:
   - id: PyGP7I9TfU6y5u9V6ohcvA
     enabled: true
     invertResult: false
-    order: 7
+    order: 8
     repeat: 1
     type: Action
     settings:
@@ -206,7 +229,7 @@ tests:
   - id: uswKW9mHGk2-htsp8LNVDg
     enabled: true
     invertResult: false
-    order: 8
+    order: 9
     repeat: 1
     type: Action
     elementId: rtNilffWXEuntODZ-thfEg
@@ -226,7 +249,7 @@ tests:
   - id: R5BdVhjceUGHzi_K8GqanQ
     enabled: true
     invertResult: false
-    order: 9
+    order: 10
     repeat: 1
     type: Action
     settings:
@@ -251,7 +274,7 @@ tests:
   - id: xiqbACjOGkqenyjUGANixw
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Addon
     elementId: vHIQrUyZ4EWpDIFV-4vUQw
@@ -275,7 +298,7 @@ tests:
   - id: keWBSrhokkaB3jI4l8QSBQ
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Addon
     elementId: 6UvZSWwHqE-i9uE4qJc82g
@@ -299,7 +322,7 @@ tests:
   - id: RQIijDfDWkCYbWaN0j1ROw
     enabled: true
     invertResult: false
-    order: 12
+    order: 13
     repeat: 1
     type: Addon
     elementId: ABvNcZIPvUqwcpVUFzUhdw
@@ -323,7 +346,7 @@ tests:
   - id: dd7ZFsb1iUS-lHxV244C6w
     enabled: true
     invertResult: false
-    order: 13
+    order: 14
     repeat: 1
     type: Addon
     elementId: X2NNLMYdK02YPzUrLZtkGg
@@ -347,7 +370,7 @@ tests:
   - id: 1bz0GhyOMUC9z-1AnIKdZA
     enabled: true
     invertResult: false
-    order: 14
+    order: 15
     repeat: 1
     type: Addon
     elementId: 0JSAc5u980iooe86LXsjrQ
@@ -371,7 +394,7 @@ tests:
   - id: P-YgVLeV50e6pwi7KalRuQ
     enabled: true
     invertResult: false
-    order: 15
+    order: 16
     repeat: 1
     type: Action
     settings:
@@ -396,7 +419,7 @@ tests:
   - id: xdpNm7RTykOt8H4k7EV1OA
     enabled: true
     invertResult: false
-    order: 16
+    order: 17
     repeat: 1
     type: Action
     settings:
@@ -421,7 +444,7 @@ tests:
   - id: ZoHg4P-5g0OtsWUlxtl3NA
     enabled: true
     invertResult: false
-    order: 17
+    order: 18
     repeat: 1
     type: Action
     settings:
@@ -446,7 +469,7 @@ tests:
   - id: ABi4dk-2rkafe5uWXfS39A
     enabled: true
     invertResult: false
-    order: 18
+    order: 19
     repeat: 1
     type: Action
     settings:
@@ -471,7 +494,7 @@ tests:
   - id: zb2D6ifuaEu65eXgtOEQPQ
     enabled: true
     invertResult: false
-    order: 19
+    order: 20
     repeat: 1
     type: Action
     settings:
@@ -497,7 +520,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 20
+    order: 21
     repeat: 1
     type: Action
     elementId: zzKNO3UOBUq069G0t5Lk3Q
@@ -521,7 +544,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 21
+    order: 22
     repeat: 1
     type: Action
     elementId: SDU_4DhZ2UaI5bcCIQ_lmg
@@ -545,7 +568,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 22
+    order: 23
     repeat: 1
     type: Action
     elementId: -fbDN6o0ZkCu3bz1F_4j5g
@@ -569,7 +592,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 23
+    order: 24
     repeat: 1
     type: Action
     elementId: zRj2iNhRJk-UoIFli8_Kzg
@@ -593,7 +616,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 24
+    order: 25
     repeat: 1
     type: Action
     elementId: bZXaP5p8JEy_TcDRaMk8lg
@@ -616,7 +639,7 @@ tests:
   - id: 1UoRXbCMAkS5Nl5vzGl_rQ
     enabled: true
     invertResult: false
-    order: 25
+    order: 26
     repeat: 1
     type: Action
     elementId: IzbqzSqmXES_fXwalQlGOA
